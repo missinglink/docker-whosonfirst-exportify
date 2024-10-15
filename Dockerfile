@@ -1,6 +1,6 @@
 # first build all the gdal/libgeos stuff
 
-FROM osgeo/gdal:alpine-normal-latest
+FROM ghcr.io/osgeo/gdal:alpine-normal-latest
 
 ARG PY_WOF_UTILS_VERSION=1.0.0
 ARG PY_WOF_EXPORT_VERSION=1.0.0
